@@ -1,0 +1,7 @@
+[bastion]
+bastion.rhrva.internal
+
+[infra]
+host1.rhv.rhtrva.internal
+host2.rhv.rhtrva.internal
+host3.rhv.rhtrva.internal
