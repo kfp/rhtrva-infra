@@ -25,3 +25,4 @@ app2.os                   IN      A       192.168.25.30
 master3.os                   IN      A       192.168.25.31
 app3.os                   IN      A       192.168.25.32
 lb1.os                   IN      A       192.168.25.33
+*.apps.os                   IN      A       192.168.25.34
