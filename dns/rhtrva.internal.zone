@@ -1,0 +1,27 @@
+; Authoritative data for example.com zone
+;
+$TTL 1D
+@   IN SOA  dns.rhtrva.internal   root.dns.rhtrva.internal. (
+                                       2017031301      ; serial
+                                       1D              ; refresh
+                                       1H              ; retry
+                                       1W              ; expire
+                                       3H )            ; minimum
+
+$ORIGIN         rhtrva.internal.
+rhtrva.internal.            IN      NS      dns.rhtrva.internal.
+dns                     IN      A       127.0.0.1
+host1.rhv                  IN      A       192.168.25.1
+host2.rhv                   IN      A       192.168.25.21
+host3.rhv                   IN      A       192.168.25.22
+bastion                   IN      A       192.168.25.23
+engine.rhv                   IN      A       192.168.25.24
+infra1.os                   IN      A       192.168.25.25
+master1.os                   IN      A       192.168.25.26
+app1.os                   IN      A       192.168.25.27
+infra2.os                   IN      A       192.168.25.28
+master2.os                   IN      A       192.168.25.29
+app2.os                   IN      A       192.168.25.30
+master3.os                   IN      A       192.168.25.31
+app3.os                   IN      A       192.168.25.32
+lb1.os                   IN      A       192.168.25.33
