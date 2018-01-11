@@ -1,10 +1,10 @@
 [Unit]
-Description=AutoSSH tunnel service everythingcli MySQL on local port 5000
+Description=AutoSSH tunnel service to expose boxes locked behind NAT over port 2210
 After=network.target
 
 [Service]
 Environment="AUTOSSH_GATETIME=0"
-ExecStart=/usr/bin/autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -NR 2210:localhost:22 root@sperlazzasaurus.com -p 8228
+ExecStart=/usr/bin/autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -NR 2210:localhost:22 -i /root/.ssh/id_rsa root@sand.sperlazzasaurus.com -p 8228
 
 [Install]
 WantedBy=multi-user.target
