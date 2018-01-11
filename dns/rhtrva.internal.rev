@@ -1,0 +1,22 @@
+; Authoritative data for rhtrva.internal  reverse zone
+;
+$TTL 1D
+@   IN SOA  dns.rhtrva.internal   root.dns.rhtrva.internal. (
+                                        2017031501      ; serial
+                                        1D              ; refresh
+                                        1H              ; retry
+                                        1W              ; expire
+                                        3H )            ; minimum
+
+@       IN      NS      rhtrva.internal.
+rhtrva.internal.    IN      NS      dns.rhtrva.internal.
+1               IN      PTR     host1.rhv.rhtrva.internal.
+21              IN      PTR     host2.rhv.rhtrva.internal.
+22              IN      PTR     host3.rhv.rhtrva.internal.
+23              IN      PTR     bastion.rhtrva.internal.
+24              IN      PTR     engine.rhv.rhtrva.internal.
+25              IN      PTR     infra1.os.rhtrva.internal.
+26              IN      PTR     master1.os.rhtrva.internal.
+27              IN      PTR     app1.os.rhtrva.internal.
+28              IN      PTR     infra2.os.rhtrva.internal.
+29              IN      PTR     master2.os.rhtrva.internal.
