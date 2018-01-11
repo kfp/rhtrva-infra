@@ -1,3 +1,3 @@
 #/etc/exports
-/storage/nfs 192.168.0.0/16(rw,sync,no_root_squash)
+/storage/nfs 10.130.81.0/24(rw,sync,no_root_squash)
 
