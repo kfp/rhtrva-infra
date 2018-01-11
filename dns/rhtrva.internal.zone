@@ -11,7 +11,7 @@ $TTL 1D
 $ORIGIN         rhtrva.internal.
 rhtrva.internal.            IN      NS      dns.rhtrva.internal.
 dns                     IN      A       127.0.0.1
-host1.rhv                  IN      A       192.168.25.1
+host1.rhv                  IN      A       10.130.81.223
 host2.rhv                   IN      A       192.168.25.21
 host3.rhv                   IN      A       192.168.25.22
 bastion                   IN      A       192.168.25.23
