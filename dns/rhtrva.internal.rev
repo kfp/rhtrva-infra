@@ -10,13 +10,21 @@ $TTL 1D
 
 @       IN      NS      rhtrva.internal.
 rhtrva.internal.    IN      NS      dns.rhtrva.internal.
-1               IN      PTR     host1.rhv.rhtrva.internal.
+20               IN      PTR     host1.rhv.rhtrva.internal.
 21              IN      PTR     host2.rhv.rhtrva.internal.
 22              IN      PTR     host3.rhv.rhtrva.internal.
 23              IN      PTR     bastion.rhtrva.internal.
 24              IN      PTR     engine.rhv.rhtrva.internal.
-25              IN      PTR     infra1.os.rhtrva.internal.
-26              IN      PTR     master1.os.rhtrva.internal.
-27              IN      PTR     app1.os.rhtrva.internal.
-28              IN      PTR     infra2.os.rhtrva.internal.
-29              IN      PTR     master2.os.rhtrva.internal.
+25              IN      PTR     rhv.rhtrva.internal.
+31              IN      PTR     infra1.os.rhtrva.internal.
+32              IN      PTR     master1.os.rhtrva.internal.
+33              IN      PTR     app1.os.rhtrva.internal.
+34              IN      PTR     infra2.os.rhtrva.internal.
+35              IN      PTR     master2.os.rhtrva.internal.
+36              IN      PTR     app2.os.rhtrva.internal.
+37              IN      PTR     master3.os.rhtrva.internal.
+38              IN      PTR     app3.os.rhtrva.internal.
+39              IN      PTR     lb1.os.rhtrva.internal.
+
+; not a dns thing aparently
+;40              IN      PTR     *.os.rhtrva.internal.
