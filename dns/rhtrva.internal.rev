@@ -11,6 +11,7 @@ $TTL 1D
 @       IN      NS      rhtrva.internal.
 rhtrva.internal.    IN      NS      dns.rhtrva.internal.
 20               IN      PTR     host1.rhv.rhtrva.internal.
+20               IN      PTR     storage.rhtrva.internal.
 21              IN      PTR     host2.rhv.rhtrva.internal.
 22              IN      PTR     host3.rhv.rhtrva.internal.
 23              IN      PTR     bastion.rhtrva.internal.
