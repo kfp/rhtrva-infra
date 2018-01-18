@@ -26,6 +26,3 @@ rhtrva.internal.    IN      NS      dns.rhtrva.internal.
 37              IN      PTR     master3.os.rhtrva.internal.
 38              IN      PTR     app3.os.rhtrva.internal.
 39              IN      PTR     lb1.os.rhtrva.internal.
-
-; not a dns thing aparently
-;40              IN      PTR     *.os.rhtrva.internal.
