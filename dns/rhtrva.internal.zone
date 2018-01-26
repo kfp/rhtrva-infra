@@ -15,7 +15,7 @@ host1.rhv                  IN      A       192.168.10.20
 storage                  IN      A       192.168.10.20
 host2.rhv                   IN      A       192.168.10.21
 host3.rhv                   IN      A       192.168.10.22
-bastion                   IN      A       192.168.10.101
+bastion                   IN      A       192.168.10.23
 engine.rhv                   IN      A       192.168.10.24
 rhv                   IN      A       192.168.10.25
 openshift-infra-0.os                   IN      A       192.168.10.110

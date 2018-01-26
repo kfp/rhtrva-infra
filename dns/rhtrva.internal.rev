@@ -14,7 +14,7 @@ rhtrva.internal.    IN      NS      dns.rhtrva.internal.
 20               IN      PTR     storage.rhtrva.internal.
 21              IN      PTR     host2.rhv.rhtrva.internal.
 22              IN      PTR     host3.rhv.rhtrva.internal.
-101              IN      PTR     bastion.rhtrva.internal.
+23              IN      PTR     bastion.rhtrva.internal.
 24              IN      PTR     engine.rhv.rhtrva.internal.
 25              IN      PTR     rhv.rhtrva.internal.
 110              IN      PTR     openshift-infra-0.os.rhtrva.internal.
