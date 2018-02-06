@@ -1,0 +1,14 @@
+; Authoritative data for opencontainer.io zone
+;
+$TTL 1D
+@   IN SOA  dns.rhtrva.internal   root.dns.rhtrva.internal. (
+                                       2017031311      ; serial
+                                       1D              ; refresh
+                                       1H              ; retry
+                                       1W              ; expire
+                                       3H )            ; minimum
+
+$ORIGIN         opencontainer.io.
+openshift	                    IN      A       192.168.10.191
+*.apps		                    IN      A       192.168.10.191
+opencontainer.io.    	            IN      NS      dns.rhtrva.internal.
