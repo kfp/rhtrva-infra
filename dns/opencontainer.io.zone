@@ -9,6 +9,7 @@ $TTL 1D
                                        3H )            ; minimum
 
 $ORIGIN         opencontainer.io.
-openshift	                    IN      A       192.168.10.191
-*.apps		                    IN      A       192.168.10.191
+openshift	                    IN      A       192.168.10.156
+openshift-lb	                    IN      A       192.168.10.156
+*.apps		                    IN      A       192.168.10.156
 opencontainer.io.    	            IN      NS      dns.rhtrva.internal.
